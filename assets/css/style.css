@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", Helvetica, sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Global */
+.logo-image {
+  border-radius: 50%;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-head {
+  font-size: 8vw;
+}
+
+.text-head2 {
+  font-size: 7vw;
+  color: #7d97ad;
+}
+
+.featured-title,
+.link {
+  color: #2d3c49;
+}
+
+.text {
+  font-size: 6vw;
+}
+
+.featured-description {
+  color: #02b3e4;
+}
+/* End Global */
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: solid #7d97ad;
+}
+
+.featured {
+  margin-top: 30px;
+}
+
+.content-header,
+.item {
+  text-align: center;
+}
+
+.item {
+  margin: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #7d97ad;
+  font-size: 10px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #fff;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+/* Breakpoints */
+@media screen and (min-width: 475px) {
+  .text-head {
+    font-size: 7vw;
+  }
+
+  .text-head2 {
+    font-size: 6vw;
+  }
+
+  .text {
+    font-size: 5vw;
+  }
+
+  .featured-image {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .logo {
+    padding-top: 15px;
+  }
+
+  .header {
+    justify-content: space-between;
+    margin: 0 auto 30px;
+    text-align: left;
+  }
+
+  .header-name {
+    text-align: right;
+  }
+
+  .content-header {
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .header,
+  .featured-items {
+    display: flex;
+    max-width: 1440px;
+  }
+
+  .featured-items {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .item {
+    margin: 20px 20px 20px 0;
+  }
+
+  .item:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .text-head {
+    font-size: 5vw;
+  }
+
+  .text-head2 {
+    font-size: 4vw;
+  }
+
+  .text {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text-head {
+    font-size: 4vw;
+  }
+
+  .text-head2 {
+    font-size: 3vw;
+  }
+
+  .text {
+    font-size: 2vw;
+  }
+}
