@@ -23,7 +23,7 @@ To view the code and make changes:
 
 ### Demo
 
-[Javi's Portfolio]("https://javavista.github.io/Project-Build-a-Portfolio-Site/")
+[Javi's Portfolio](https://javavista.github.io/Project-Build-a-Portfolio-Site/)
 
 ## Contact / Social Media
 
