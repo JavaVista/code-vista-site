@@ -119,6 +119,7 @@ footer {
   .featured-items {
     margin: auto;
     justify-content: center;
+    overflow: hidden;
   }
 
   .item {
